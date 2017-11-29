@@ -33,9 +33,12 @@ module Henv
 
   class ExecCommand <  Clamp::Command
     include Config
+
     parameter "APP", "app", attriubte_name: :app
     parameter "COMMAND ...", "command", attribute_name: :command
+
     def execute
+
     end
   end
 
