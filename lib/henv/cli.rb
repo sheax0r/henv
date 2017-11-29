@@ -38,7 +38,7 @@ module Henv
     parameter "COMMAND ...", "command", attribute_name: :command
 
     def execute
-
+      exec(config, command.join(" "))
     end
   end
 
